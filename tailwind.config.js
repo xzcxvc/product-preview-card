@@ -1,9 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        montserrat: "Montserrat, sans-serif",
+        fraunces: "Fraunces, sans-serif",
+      },
+      letterSpacing: {
+        "extra-wide": '0.2em',
+        "extra-wider": '0.3em',
+        "extra-widest": '0.4em',
+      }
+    },
   },
   plugins: [],
-}
-
+};
