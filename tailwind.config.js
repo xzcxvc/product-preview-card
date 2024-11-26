@@ -8,10 +8,14 @@ export default {
         fraunces: "Fraunces, sans-serif",
       },
       letterSpacing: {
-        "extra-wide": '0.2em',
-        "extra-wider": '0.3em',
-        "extra-widest": '0.4em',
-      }
+        "extra-wide": "0.2em",
+        "extra-wider": "0.3em",
+        "extra-widest": "0.4em",
+      },
+      screens: {
+        xs: "360px",
+        "2xs": "300px"
+      },
     },
   },
   plugins: [],
